@@ -1,0 +1,26 @@
+
+
+::ng-deep #mapid 
+{ 
+    height: 400px; 
+    width: 300px;
+    align-self: center;
+   
+    
+}
+
+::ng-deep .canvas-container
+{
+    position: absolute !important;
+}
+
+::ng-deep #mycanvas
+{
+    height: 400px !important; 
+    width: 300px !important;
+    z-index: 1002 !important;
+}
+::ng-deep upper-canvas 
+{
+    z-index: 1003 !important;
+}
